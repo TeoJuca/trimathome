@@ -1,0 +1,898 @@
+@media only screen and (max-width: 1024px) {
+  /* Navbar */
+  .menu-navbar {
+    margin-right: 10rem;
+  }
+
+  .menu-navbar li a {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  /* Header */
+  #header .l-heading {
+    font-size: 4.5rem;
+  }
+
+  /* Despre Section */
+  #despre-noi {
+    height: 80vh;
+  }
+
+  #despre-noi .container-1 {
+    width: 80%;
+  }
+
+  /* Pachete */
+  #pachete-promo {
+    height: 80vh;
+  }
+
+  .container-2 {
+    height: 80vh;
+  }
+
+  .promo {
+    padding-right: 2rem;
+  }
+  /* Foto */
+  #galerie-foto {
+    height: 60vh;
+  }
+  #galerie-foto .container-foto ul {
+    margin: 0;
+    height: 60vh;
+    padding-bottom: 8rem;
+  }
+
+  #galerie-foto .container-foto img {
+    height: 600px;
+    width: 600px;
+  }
+
+  #galerie-foto .slide {
+    padding-top: 3.5rem;
+    width: 100px;
+    height: 100px;
+  }
+
+  #galerie-foto .right {
+    margin-right: 6rem;
+  }
+  #galerie-foto .left {
+    margin-left: 7.3rem;
+  }
+
+  /* Contact */
+  .modal-info {
+    font-size: 1.5rem;
+    width: 60%;
+  }
+
+  /* Footer */
+  #main-footer {
+    height: 3rem;
+    padding-bottom: 4.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Scroll */
+  html {
+    scroll-padding-top: 0;
+  }
+
+  /* Hamburger Menu */
+  #navbar {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #hamburger .hamburger-menu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    transition: top 1s ease;
+    display: none;
+  }
+
+  #hamburger .hamburger-menu li a {
+    font-size: 1rem;
+  }
+  #hamburger .hamburger-menu li a:hover {
+    color: #fbe99f;
+    border-bottom: 0.2rem solid #ef9a25;
+    background: rgba(132, 119, 102, 0.4);
+  }
+
+  #hamburger .hamburger-menu .closeHamburger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .show-modal-contact {
+    margin: 1rem 1rem;
+    font-size: 0.75rem;
+  }
+
+  /* Header */
+  #header .showcase .l-heading {
+    margin-bottom: 2rem;
+    width: 100%;
+    font-size: 1.5rem;
+    padding-right: 4.5rem;
+  }
+
+  .show-modal-book {
+    font-size: 1.5rem;
+  }
+
+  /* Despre Section */
+  #despre-noi {
+    height: 60vh;
+  }
+
+  #despre-noi .container-1 h1 {
+    font-size: 2rem;
+    padding-top: 7rem;
+    padding-right: 1rem;
+  }
+
+  #despre-noi .container-1 p {
+    font-size: 0.8rem;
+  }
+
+  /* Pachete */
+  #pachete-promo {
+    height: 40vh;
+  }
+
+  .container-2 {
+    padding-top: 2rem;
+    height: 40vh;
+    overflow: auto;
+  }
+
+  .promo {
+    font-size: 0.75rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    padding-left: 0.5rem;
+  }
+
+  .promo .pachet {
+    text-align: center;
+    padding: 0;
+  }
+
+  /* Foto */
+  #galerie-foto {
+    height: 60vh;
+  }
+  #galerie-foto .container-foto ul {
+    margin: 0;
+    height: 60vh;
+    padding-bottom: 8rem;
+  }
+
+  #galerie-foto .container-foto img {
+    height: 450px;
+    width: 450px;
+  }
+
+  #galerie-foto .slide {
+    padding-top: 3rem;
+    width: 100px;
+    height: 100px;
+  }
+
+  #galerie-foto .right {
+    margin-right: 3rem;
+  }
+  #galerie-foto .left {
+    margin-left: 4.3rem;
+  }
+
+  /* Contact */
+  .modal-info {
+    font-size: 0.7rem;
+    width: 80%;
+  }
+
+  /* Footer */
+  #main-footer {
+    font-size: 1rem;
+
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  /* Scroll */
+  html {
+    scroll-padding-top: 0;
+  }
+
+  /* Hamburger Menu */
+  #navbar {
+    display: none;
+  }
+
+  #hamburger {
+    position: sticky;
+    top: 0;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 100;
+  }
+
+  #hamburger .hamburger-menu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    transition: top 1s ease;
+    display: none;
+  }
+
+  #hamburger .hamburger-menu li a {
+    font-size: 1rem;
+  }
+  #hamburger .hamburger-menu li a:hover {
+    color: #fbe99f;
+    border-bottom: 0.2rem solid #ef9a25;
+    background: rgba(132, 119, 102, 0.4);
+  }
+
+  #hamburger .hamburger-menu .closeHamburger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .show-modal-contact {
+    margin: 1rem 1rem;
+    font-size: 0.75rem;
+  }
+
+  /* Header */
+  #header .showcase .l-heading {
+    margin-bottom: 2rem;
+    width: 100%;
+    font-size: 1.5rem;
+    padding-right: 4.5rem;
+  }
+
+  .show-modal-book {
+    font-size: 1.5rem;
+  }
+
+  .modal-book {
+    font-size: 1.5rem;
+  }
+
+  #programare .modal-book .btn-trimite {
+    font-size: 1rem;
+  }
+
+  /* Despre Section */
+  #despre-noi {
+    height: 68vh;
+  }
+
+  #despre-noi .container-1 h1 {
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-right: 1rem;
+  }
+
+  #despre-noi .container-1 p {
+    font-size: 0.8rem;
+  }
+
+  /* Pachete */
+  #pachete-promo {
+    height: 40vh;
+  }
+
+  .container-2 {
+    padding-top: 2rem;
+    height: 40vh;
+    overflow: auto;
+  }
+
+  .promo {
+    font-size: 0.75rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    padding-left: 0.5rem;
+  }
+
+  .promo .pachet {
+    text-align: center;
+    padding: 0;
+  }
+
+  /* Foto */
+  #galerie-foto {
+    height: 60vh;
+  }
+
+  #galerie-foto h1 {
+    font-size: 2rem;
+  }
+
+  #galerie-foto .container-foto ul {
+    padding-top: 3rem;
+    margin: 0;
+    height: 60vh;
+  }
+
+  #galerie-foto .container-foto img {
+    height: 300px;
+    width: 300px;
+  }
+
+  #galerie-foto .slide {
+    padding-top: 3rem;
+    width: 100px;
+    height: 100px;
+  }
+
+  #galerie-foto .right {
+    padding-left: 6.5rem;
+  }
+  #galerie-foto .left {
+    margin-left: 0.5rem;
+  }
+
+  .slide span {
+    font-size: 5rem;
+  }
+
+  /* Contact */
+  .modal-info {
+    font-size: 0.7rem;
+    width: 80%;
+  }
+
+  /* Footer */
+  #main-footer {
+    font-size: 1rem;
+
+    padding-top: 2rem;
+  }
+}
+@media only screen and (max-width: 376px) {
+  /* Scroll */
+  html {
+    scroll-padding-top: 0;
+  }
+
+  /* Hamburger Menu */
+  #navbar {
+    display: none;
+  }
+
+  #hamburger ul li a[href="#galerie-foto"] {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #hamburger .hamburger-menu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    transition: top 1s ease;
+    display: none;
+  }
+
+  #hamburger .hamburger-menu li a {
+    font-size: 1rem;
+  }
+  #hamburger .hamburger-menu li a:hover {
+    color: #fbe99f;
+    border-bottom: 0.2rem solid #ef9a25;
+    background: rgba(132, 119, 102, 0.4);
+  }
+
+  #hamburger .hamburger-menu .closeHamburger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .show-modal-contact {
+    margin: 1rem 1rem;
+    font-size: 0.75rem;
+  }
+
+  /* Header */
+  #header .showcase .l-heading {
+    margin-bottom: 2rem;
+    width: 100%;
+    font-size: 1.2rem;
+    padding-right: 4.5rem;
+  }
+
+  .show-modal-book {
+    font-size: 1.5rem;
+  }
+
+  .modal-book {
+    font-size: 0.75rem;
+  }
+
+  input[type="text"],
+  input[type="month"] {
+    font-size: 15px;
+  }
+
+  #programare .modal-book .btn-trimite {
+    font-size: 1rem;
+  }
+
+  /* Despre Section */
+  #despre-noi {
+    height: 70vh;
+  }
+
+  #despre-noi .container-1 h1 {
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    padding-right: 1rem;
+  }
+
+  #despre-noi .container-1 p {
+    font-size: 0.8rem;
+  }
+
+  /* Pachete */
+  #pachete-promo {
+    height: 50vh;
+  }
+
+  .container-2 {
+    padding-top: 3rem;
+    height: 50vh;
+    overflow: auto;
+  }
+
+  .promo {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+    padding-left: 0.5rem;
+  }
+
+  .promo .pachet {
+    text-align: center;
+    padding: 0;
+  }
+
+  /* Foto */
+  #galerie-foto {
+    height: 60vh;
+  }
+
+  #galerie-foto h1 {
+    font-size: 2rem;
+  }
+
+  #galerie-foto .container-foto ul {
+    padding-top: 3rem;
+    margin: 0;
+    height: 60vh;
+  }
+
+  #galerie-foto .container-foto img {
+    height: 250px;
+    width: 250px;
+  }
+
+  #galerie-foto .slide {
+    padding-top: 3rem;
+    width: 100px;
+    height: 100px;
+  }
+
+  #galerie-foto .right {
+    padding-left: 6.5rem;
+  }
+  #galerie-foto .left {
+    margin-left: 0.5rem;
+  }
+
+  .slide span {
+    font-size: 5rem;
+  }
+
+  /* Contact */
+  .modal-info {
+    font-size: 0.7rem;
+    width: 100%;
+  }
+
+  /* Footer */
+  #main-footer {
+    font-size: 1rem;
+
+    padding-top: 2rem;
+  }
+}
+@media only screen and (max-width: 361px) {
+  /* Scroll */
+  html {
+    scroll-padding-top: 0;
+  }
+
+  /* Hamburger Menu */
+  #navbar {
+    display: none;
+  }
+
+  #hamburger ul li a[href="#galerie-foto"] {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #hamburger .hamburger-menu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    transition: top 1s ease;
+    display: none;
+  }
+
+  #hamburger .hamburger-menu li a {
+    font-size: 1rem;
+  }
+  #hamburger .hamburger-menu li a:hover {
+    color: #fbe99f;
+    border-bottom: 0.2rem solid #ef9a25;
+    background: rgba(132, 119, 102, 0.4);
+  }
+
+  #hamburger .hamburger-menu .closeHamburger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .show-modal-contact {
+    margin: 1rem 1rem;
+    font-size: 0.75rem;
+  }
+
+  /* Header */
+  #header .showcase .l-heading {
+    margin-bottom: 2rem;
+    width: 100%;
+    font-size: 1.2rem;
+    padding-right: 4.5rem;
+  }
+
+  .show-modal-book {
+    font-size: 1rem;
+  }
+
+  #programare .modal-book .btn-trimite {
+    font-size: 1rem;
+  }
+
+  /* Despre Section */
+  #despre-noi {
+    height: 100vh;
+  }
+
+  #despre-noi .container-1 h1 {
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    padding-right: 1rem;
+  }
+
+  #despre-noi .container-1 p {
+    font-size: 0.8rem;
+  }
+
+  /* Pachete */
+  #pachete-promo {
+    height: 60vh;
+  }
+
+  .container-2 {
+    padding-top: 3rem;
+    height: 60vh;
+    overflow: auto;
+  }
+
+  .promo {
+    font-size: 0.75rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+    padding-left: 0.5rem;
+  }
+
+  .promo .pachet {
+    text-align: center;
+    padding: 0;
+  }
+
+  /* Foto */
+  #galerie-foto {
+    height: 60vh;
+  }
+
+  #galerie-foto h1 {
+    font-size: 2rem;
+  }
+
+  #galerie-foto .container-foto ul {
+    padding-top: 3rem;
+    margin: 0;
+    height: 60vh;
+  }
+
+  #galerie-foto .container-foto img {
+    height: 200px;
+    width: 200px;
+  }
+
+  #galerie-foto .slide {
+    padding-top: 3rem;
+    width: 100px;
+    height: 100px;
+  }
+
+  #galerie-foto .right {
+    padding-left: 6.5rem;
+  }
+  #galerie-foto .left {
+    margin-left: 0.5rem;
+  }
+
+  .slide span {
+    font-size: 5rem;
+  }
+
+  /* Contact */
+  .modal-info {
+    font-size: 0.7rem;
+    width: 80%;
+  }
+
+  /* Footer */
+  #main-footer {
+    font-size: 1rem;
+
+    padding-top: 2rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* Scroll */
+  html {
+    scroll-padding-top: 0;
+  }
+
+  #hamburger ul li a[href="#galerie-foto"] {
+    display: none;
+  }
+
+  /* Hamburger Menu */
+  #navbar {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #hamburger .hamburger-menu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    transition: top 1s ease;
+    display: none;
+  }
+
+  #hamburger .hamburger-menu li a {
+    font-size: 1rem;
+  }
+  #hamburger .hamburger-menu li a:hover {
+    color: #fbe99f;
+    border-bottom: 0.2rem solid #ef9a25;
+    background: rgba(132, 119, 102, 0.4);
+  }
+
+  #hamburger .hamburger-menu .closeHamburger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .show-modal-contact {
+    margin: 1rem 1rem;
+    font-size: 0.75rem;
+  }
+
+  /* Header */
+  #header .showcase .l-heading {
+    margin-bottom: 2rem;
+    width: 100%;
+    font-size: 1.2rem;
+    padding-right: 4.5rem;
+  }
+
+  .show-modal-book {
+    font-size: 1rem;
+  }
+
+  #programare .modal-book .btn-trimite {
+    font-size: 0.5rem;
+  }
+
+  /* Despre Section */
+  #despre-noi {
+    height: 110vh;
+  }
+
+  #despre-noi .container-1 h1 {
+    font-size: 1.5rem;
+    padding-top: 7rem;
+    padding-right: 1rem;
+  }
+
+  #despre-noi .container-1 p {
+    font-size: 0.8rem;
+  }
+
+  /* Pachete */
+  #pachete-promo {
+    height: 60vh;
+  }
+
+  .container-2 {
+    padding-top: 2rem;
+    height: 60vh;
+    overflow: auto;
+  }
+
+  .promo {
+    font-size: 0.75rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+    padding-left: 0.5rem;
+  }
+
+  .promo .pachet {
+    text-align: center;
+    padding: 0;
+  }
+
+  /* Foto */
+  #galerie-foto {
+    height: 60vh;
+  }
+
+  #galerie-foto h1 {
+    font-size: 2rem;
+  }
+
+  #galerie-foto .container-foto ul {
+    padding-top: 3rem;
+    margin: 0;
+    height: 60vh;
+  }
+
+  #galerie-foto .container-foto img {
+    height: 150px;
+    width: 150px;
+  }
+
+  #galerie-foto .slide {
+    padding-top: 3rem;
+    width: 100px;
+    height: 100px;
+  }
+
+  #galerie-foto .right {
+    padding-left: 6.5rem;
+  }
+  #galerie-foto .left {
+    margin-left: 0.5rem;
+  }
+
+  .slide span {
+    font-size: 5rem;
+  }
+
+  /* Contact */
+  .modal-info {
+    font-size: 0.7rem;
+    width: 80%;
+  }
+
+  /* Footer */
+  #main-footer {
+    font-size: 1rem;
+    padding-top: 2rem;
+  }
+}

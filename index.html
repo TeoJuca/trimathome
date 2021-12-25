@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>TrimAtHome✂️</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="resources//img/favicon.png"
+    />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+    <link rel="stylesheet" href="resources/css/queris.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Hamburger -->
+    <nav id="hamburger">
+      <button class="show-modal-contact">Contact📞</button>
+
+      <div class="openHamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="hamburger-menu">
+        <img
+          src="resources/img/logo transparent.png"
+          alt="logo-trim"
+          class="logo"
+        />
+        <li><a href="#header">Acasă🏠</a></li>
+        <li><a href="#despre-noi">Despre noi🙂</a></li>
+        <li><a href="#pachete-promo">Pachete📦</a></li>
+        <li><a href="#galerie-foto">Galerie foto📸</a></li>
+
+        <div class="closeHamburger"><i class="fas fa-times"></i></div>
+      </ul>
+    </nav>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+      <img
+        src="resources/img/logo transparent.png"
+        alt="logo-trim"
+        class="logo"
+      />
+      <ul class="menu-navbar">
+        <li class="item"><a href="#header">Acasă🏠</a></li>
+        <li class="item"><a href="#despre-noi">Despre noi🙂</a></li>
+        <li class="item"><a href="#pachete-promo">Pachete📦</a></li>
+        <li class="item"><a href="#galerie-foto">Galerie foto📸</a></li>
+        <li class="item">
+          <button class="show-modal-contact">Contact📞</button>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="header">
+      <div class="showcase">
+        <h1 class="l-heading">O ALEGERE INSPIRATĂ🪒</h1>
+        <button class="show-modal-book">Programează-te💈</button>
+      </div>
+    </header>
+    <!-- Despre noi -->
+    <section id="despre-noi">
+      <div class="container-1">
+        <h1 class="text-despre">Despre noi👋</h1>
+        <p class="text">
+          Incorporând cele mai noi tehnici de styling garantăm rezultatul pe
+          care tu in calitate de client îl dorești.Fie că vorbim de styling, de
+          îngrijirea bărbii sau a parului, în barber shop-ul nostru folosim doar
+          branduri de renume international, care s-au remarcat atât prin
+          calitatea superioară a produselor cât și prin mixul de ingrediente din
+          compoziție, fără parabeni, ftalați sau alte sintetice dăunătoare. Ne
+          aprovizionăm constant cu produse noi de cea mai inalta calitate, nu
+          înainte de a fi testate și aprobate în unamitate de profesioniștii din
+          echipa noastră.
+        </p>
+      </div>
+    </section>
+    <!-- Pachete promotionale -->
+    <section id="pachete-promo">
+      <div class="container-2">
+        <h1 class="title">Pachete promoționale🎉</h1>
+        <ul class="promo">
+          <li class="pachet">
+            <h3>
+              Gold<br />
+              🥇
+            </h3>
+            <p>
+              ✔️tuns<br />
+              ✔️spălat<br />
+              ✔️masaj<br />
+              ✔️frezat<br />
+              ✔️barbă<br />
+              ✔️aranjat complet
+            </p>
+          </li>
+          <li class="pachet">
+            <h3>
+              Silver<br />
+              🥈
+            </h3>
+            <p>
+              ✔️tuns<br />
+              ✔️spălat<br />
+              ✔️produse de îngrijit<br />
+              ✔️frezat<br />
+              ✔️contur
+            </p>
+          </li>
+          <li class="pachet">
+            <h3>
+              Bronze<br />
+              🥉
+            </h3>
+            <p>
+              ✔️tuns<br />
+              ✔️spălat<br />
+              ✔️masaj
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Galerie Foto -->
+    <section id="galerie-foto">
+      <h1>Galerie foto📸</h1>
+      <div class="container-foto">
+        <ul class="images">
+          <img src="./resources/img/foto1.jpg" alt="foto_1" class="foto-1" />
+          <img src="./resources/img/foto2.jpg" alt="foto_2" class="foto-2" />
+          <img src="./resources/img/foto3.jpg" alt="foto_3" class="foto-3" />
+          <img src="./resources/img/foto4.jpg" alt="foto_4" class="foto-4" />
+          <img src="./resources/img/foto5.jpg" alt="foto_5" class="foto-5" />
+          <img src="./resources/img/foto6.jpg" alt="foto_6" class="foto-6" />
+          <img src="./resources/img/foto7.jpg" alt="foto_6" class="foto-7" />
+          <img src="./resources/img/foto8.jpg" alt="foto_6" class="foto-8" />
+        </ul>
+      </div>
+      <div onclick="sideSlide(-1)" class="slide left">
+        <span class="fas fa-angle-left"></span>
+      </div>
+      <div onclick="sideSlide(1)" class="slide right">
+        <span class="fas fa-angle-right"></span>
+      </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section id="contact">
+      <div class="modal-info hidden-info">
+        <button class="close-modal-info">&times;</button>
+        <h1>Ne puteți contacta la urmatoarele adrese:</h1>
+        <p>
+          <strong>☎️Telefon</strong>: ▪️021.350.62.28<br /><strong
+            >📧E-mail</strong
+          >: ▪️trimathome@gmail.com<br /><strong>🔹Facebook</strong>:
+          ▪️TrimAtHome<br /><strong>🔸Instagram</strong>: ▪️@trimathome<br /><strong
+            >🔥Adresă</strong
+          >: sos.Olteniței nr.64
+        </p>
+      </div>
+      <div class="overlay-info hidden-info"></div>
+    </section>
+
+    <!-- Programare Info -->
+    <section id="programare">
+      <div class="modal-book hidden-book">
+        <button class="close-modal-book">&times;</button>
+        <form name="book" method="POST" data-netlify="true">
+          <div class="text-fields">
+            <div class="text-name">
+              <label for="name">⭐Nume</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="text-surname">
+              <label for="surname">⭐Prenume</label>
+              <input type="text" name="surname" id="surname" />
+            </div>
+            <div class="text-phone">
+              <label for="phone">☎️Telefon</label>
+              <input type="text" name="phone" id="phone" />
+            </div>
+            <label for="month">✂️Pe ce dată dorești să te programezi?</label>
+            <input id="month" type="date" name="month" />
+            <button class="btn-trimite">Trimite</button>
+          </div>
+        </form>
+      </div>
+      <div class="overlay-book hidden-book"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <p>TrimAtHome✂️ &copy; 2021, All RIghts Reserved</p>
+    </footer>
+    <script src="./resources/js/script.js"></script>
+  </body>
+</html>
